@@ -1,0 +1,19 @@
+{
+  "name": "web-rtc-experiments",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js",
+    "signalhub": "signalhub listen -p 8080"
+  },
+  "author": "George Pickett",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.2.0"
+  },
+  "dependencies": {
+    "signalhub": "^4.9.0",
+    "webrtc-swarm": "^2.9.0"
+  }
+}
